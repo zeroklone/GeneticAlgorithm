@@ -7,9 +7,9 @@ Feel free to copy and seed, as long as you give others that same right when you 
 This module attempts to solve the Travelling Salesman problem (http://en.wikipedia.org/wiki/Travelling_salesman_problem) by implementing a genetic algorithm in Python
 
 1. POPULATION:
-Input
+1.1 Input
 A list of all cities an the the paths between them is provided as a CSV file
-Representation
+1.2 Representation
 A member of the population is represented as a directed graph in string form.
 
 2. BREEDING POOL
