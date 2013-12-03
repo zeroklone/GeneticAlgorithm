@@ -19,6 +19,6 @@ class RecombinationStrategies:
         child2 = parent2[:2]+child2
 
         mutation = MutationStrategies()
-        child1 = mutation.basic_shuffle(child1)
+        #child1 = mutation.basic_shuffle(child1)
 
-        return [child1, child2]
+        return child1, child2

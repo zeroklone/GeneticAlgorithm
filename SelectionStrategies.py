@@ -19,4 +19,4 @@ class SelectionStrategies:
         parent1 = population[index1]
         parent2 = population[index2]
 
-        return [parent1,parent2]    # these two will reproduce
+        return parent1,parent2    # these two will reproduce
