@@ -6,6 +6,7 @@ class Population:
         self.city_names = []
         self.population = []
         self.objective_values = []
+        self.population_size = population_size
 
     def get_raw_data(self, filename, delim):
         with open(filename,'rb') as csv_file:
@@ -50,7 +51,7 @@ class Population:
         # the first city in the list should be the head node of each individual
         f = open('first_generation.csv','wb')
         # print list_of_city_names
-        size = 10 # size of the population
+        size = self.population_size # size of the population
         for count in range(size): # generate a random route starting at the first city
             items = list_of_city_names[2:]
             random.shuffle(items) # shuffles the order of the cities, excluding the first city
