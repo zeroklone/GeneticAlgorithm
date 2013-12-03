@@ -1,4 +1,5 @@
 from Population import Population
+from SelectionStrategies import SelectionStrategies
 import random
 
 class BreedingPool:
